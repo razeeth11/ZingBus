@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* --------Nav-Bar-Section----------------------- */
+
+.nav-bar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  box-shadow: 1px 1px 10px rgb(185, 185, 185);
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.discount-section {
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, orange, yellow, orange);
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: rgb(40, 40, 40);
+  cursor: pointer;
+}
+
+.sign {
+  color: #7b2aff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.sign-discount {
+  font-weight: 600;
+}
