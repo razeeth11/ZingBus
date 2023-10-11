@@ -48,32 +48,28 @@
 
 /* -----Main-Div------------- */
 
-.main-div{
-  position: relative;
-  /* border: 1px solid red; */
-  padding: 0px 100px;
-}
-
-.main-image-div {
-  height: 400px;
-  margin: 10px auto;
+.main-div {
   background-image: url("./public/images/main-image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  height: 400px;
+  margin-top: 10px;
+  position: relative;
+  /* border: 1px solid red; */
 }
 
 .main-search-comp{
   display: flex;
   align-items: center;
-  position: absolute;
-  bottom: -10px;
-  left: 20%;
   background-color: white;
   padding: 20px;
   box-shadow: 5px 5px 10px grey;
   border-radius: 20px;
-  width: 60%;
+  max-width: 600px;
+  margin: auto;
+  position:relative;
+  top:350px;
 }
 
 .from,.to,.date{
@@ -140,7 +136,7 @@
 }
 
 .offers-head{
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
   border-bottom: 1.5px solid lightgray;
   padding-bottom: 20px;
@@ -156,7 +152,8 @@
 .offers-image{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
   width: 100%;
 }
 
@@ -190,7 +187,7 @@
 
 .all-offers button{
    position: absolute;
-   bottom: 15px;
+   bottom: 25px;
    left: 25%;
    background-color: #7b2aff;
    color: white;
@@ -200,4 +197,73 @@
    border-radius: 10px;
    font-weight: 600;
    cursor: pointer;
+}
+
+
+/* ---------zing-bus-Div---------------- */
+
+.zing-bus-div{
+    padding: 0px 100px; 
+    margin-top: 40px;
+}
+
+.zing-bus{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.zing-bus-head{
+  font-size: 28px;
+  font-weight: 600;
+  border-bottom: 1.5px solid lightgray;
+  padding-bottom: 20px;
+  color: rgb(55, 55, 55);
+}
+
+.zing-bus-sub-head{
+  color: rgb(100, 100, 100);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.zing-bus-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.zing-img{
+  position: relative;
+}
+
+.zing-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+}
+
+.zing-content p{
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.zing-content h1{
+  color: white;
+}
+
+.zing-content button{
+  width: 50px;
+  border: none;
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
 }

@@ -1,7 +1,6 @@
 export function MainDiv() {
   return (
     <div className="main-div">
-      <div className="main-image-div">{/* main-image-CSS */}</div>
       <div className="main-search-comp">
         <div className="from-comp">
           <div className="from">
