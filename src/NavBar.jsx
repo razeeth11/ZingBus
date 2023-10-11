@@ -1,5 +1,11 @@
+import { useState } from "react";
+
 export function NavBar() {
+  
+const [state,setState] = useState(false)
+
   return (
+    <>
     <div className="nav-bar-section">
       <div className="logo">
         <img
@@ -14,7 +20,7 @@ export function NavBar() {
           <span class="material-symbols-outlined">chevron_right</span>
         </div>
         <div className="signUp-section">
-          <p class="sign">Sign Up</p>
+          <p class="sign" onClick={()=>setState(true)}>Sign Up</p>
           <p>
             And <span className="sign-discount">Get ₹200 OFF</span> on first
             booking
@@ -22,5 +28,22 @@ export function NavBar() {
         </div>
       </div>
     </div>
+    {state ? <div className="signUp-page">
+    <div className="tag">
+      <h1>Login</h1>
+      <span class="material-symbols-outlined" onClick={()=>setState(false)}>close</span>
+    </div>
+    <div className="sign-comp">
+      <form>
+        <img
+          src="https://d1flzashw70bti.cloudfront.net/original/images/india.svg"
+          alt=""
+        />
+        <p>+91</p>
+        <input type="number" placeholder="Mobile Number" />
+      </form>
+    </div>
+  </div> : null}
+    </>
   );
 }
