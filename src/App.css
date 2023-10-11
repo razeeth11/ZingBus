@@ -23,9 +23,10 @@
 .discount-section {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   max-width: 200px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   background-image: linear-gradient(to right, orange, yellow, orange);
   padding: 10px 20px;
   border-radius: 50px;
@@ -44,3 +45,82 @@
 .sign-discount {
   font-weight: 600;
 }
+
+/* -----Main-Div------------- */
+
+.main-div{
+  position: relative;
+  /* border: 1px solid red; */
+  padding: 0 100px;
+}
+
+.main-image-div {
+  height: 400px;
+  margin: 10px auto;
+  background-image: url("./public/images/main-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main-search-comp{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -10px;
+  left: 20%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 20px;
+  width: 60%;
+}
+
+.from,.to,.date{
+  display: flex;
+  align-items: center;
+}
+
+.from-input,.To-input,.date-input{
+  display: flex;
+  align-items: center;
+}
+
+.from-comp,.to-comp,.date-comp{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+}
+
+.from-input input,.To-input input,.date-input input{
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.from-input :focus,.To-input input:focus,.date-input input:focus{
+  outline: none;
+}
+
+.from p,.to p,.date p{
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.search-comp button{
+  background-color: #fd5f98;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+
+/* ---------Offers-Div---------------- */
