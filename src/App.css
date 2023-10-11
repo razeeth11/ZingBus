@@ -59,7 +59,7 @@
   /* border: 1px solid red; */
 }
 
-.main-search-comp{
+.main-search-comp {
   display: flex;
   align-items: center;
   background-color: white;
@@ -68,28 +68,36 @@
   border-radius: 20px;
   max-width: 600px;
   margin: auto;
-  position:relative;
-  top:350px;
+  position: relative;
+  top: 350px;
 }
 
-.from,.to,.date{
+.from,
+.to,
+.date {
   display: flex;
   align-items: center;
 }
 
-.from-input,.To-input,.date-input{
+.from-input,
+.To-input,
+.date-input {
   display: flex;
   align-items: center;
 }
 
-.from-comp,.to-comp,.date-comp{
+.from-comp,
+.to-comp,
+.date-comp {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 200px;
 }
 
-.from-input input,.To-input input,.date-input input{
+.from-input input,
+.To-input input,
+.date-input input {
   width: 80%;
   border: none;
   border-bottom: 1px solid grey;
@@ -97,17 +105,21 @@
   padding: 5px;
 }
 
-.from-input :focus,.To-input input:focus,.date-input input:focus{
+.from-input :focus,
+.To-input input:focus,
+.date-input input:focus {
   outline: none;
 }
 
-.from p,.to p,.date p{
+.from p,
+.to p,
+.date p {
   font-size: 16px;
   font-weight: 600;
   margin-left: 5px;
 }
 
-.search-comp button{
+.search-comp button {
   background-color: #fd5f98;
   padding: 15px 30px;
   font-size: 20px;
@@ -118,24 +130,22 @@
   color: white;
 }
 
-
 /* ---------Offers-Div---------------- */
 
-
-.offers-div{
-  padding: 0px 100px; 
+.offers-div {
+  padding: 0px 100px;
   margin-top: 80px;
   /* border: 1px solid red;  */
 }
 
-.offers{
-  display:flex;
+.offers {
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
 
-.offers-head{
+.offers-head {
   font-size: 28px;
   font-weight: 600;
   border-bottom: 1.5px solid lightgray;
@@ -143,13 +153,13 @@
   color: rgb(55, 55, 55);
 }
 
-.offers-sub-head{
+.offers-sub-head {
   color: rgb(100, 100, 100);
   font-size: 24px;
   font-weight: 600;
 }
 
-.offers-image{
+.offers-image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,12 +167,12 @@
   width: 100%;
 }
 
-.offers-image img{
+.offers-image img {
   border-radius: 10px;
   cursor: pointer;
 }
 
-.all-offers{
+.all-offers {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,13 +181,13 @@
   position: relative;
 }
 
-.all-offers-head{
+.all-offers-head {
   color: #7b2aff;
   font-weight: 600;
   font-size: 18px;
 }
 
-.download-qr{
+.download-qr {
   display: flex;
   align-items: center;
   padding: 0 30px;
@@ -185,36 +195,30 @@
   background-color: #8142c965;
 }
 
-.all-offers button{
-   position: absolute;
-   bottom: 25px;
-   left: 25%;
-   background-color: #7b2aff;
-   color: white;
-   font-size: 18px;
-   padding: 10px 20px;
-   border: none;
-   border-radius: 10px;
-   font-weight: 600;
-   cursor: pointer;
+.all-offers button {
+  position: absolute;
+  bottom: 25px;
+  left: 25%;
+  background-color: #7b2aff;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
 }
-
 
 /* ---------zing-bus-Div---------------- */
 
-.zing-bus-div{
-    padding: 0px 100px; 
-    margin-top: 40px;
-}
-
-.zing-bus{
-  display:flex;
+.zing-bus {
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
 
-.zing-bus-head{
+.zing-bus-head {
   font-size: 28px;
   font-weight: 600;
   border-bottom: 1.5px solid lightgray;
@@ -222,24 +226,24 @@
   color: rgb(55, 55, 55);
 }
 
-.zing-bus-sub-head{
+.zing-bus-sub-head {
   color: rgb(100, 100, 100);
   font-size: 24px;
   font-weight: 600;
 }
 
-.zing-bus-image{
+.zing-bus-image {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 60px;
 }
 
-.zing-img{
+.zing-img {
   position: relative;
 }
 
-.zing-content{
+.zing-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -249,21 +253,65 @@
   top: 0;
 }
 
-.zing-content p{
+.zing-content p {
   font-size: 14px;
   margin-top: 10px;
   font-weight: 500;
   color: white;
 }
 
-.zing-content h1{
+.zing-content h1 {
   color: white;
 }
 
-.zing-content button{
+.zing-content button {
   width: 50px;
   border: none;
   border-radius: 50px;
   padding: 5px;
   cursor: pointer;
+}
+
+.zing-bus-lounge {
+  padding: 0px 100px;
+  margin: 40px 0;
+}
+
+.zing-bus-lounge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.zing-bus-lounge-head {
+  font-size: 28px;
+  font-weight: 600;
+  border-bottom: 1.5px solid lightgray;
+  padding-bottom: 20px;
+  color: rgb(55, 55, 55);
+}
+
+.zing-bus-lounge-sub-head {
+  color: rgb(100, 100, 100);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.zing-bus-lounge-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.zing-lounge-content {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  background-color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 0 20px 20px 0;
 }
